@@ -1,0 +1,23 @@
+/* Tailwind utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  pointer-events: none;
+}
+
+.placeholder-top::placeholder {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  font-size: 18px;
+  color: #888;
+}
