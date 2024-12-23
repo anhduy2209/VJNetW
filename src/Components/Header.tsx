@@ -1,9 +1,6 @@
-import React from 'react';
-
 const Header: React.FC = () => {
     return (
         <header className="relative flex justify-between items-center p-4 text-white w-full h-60 z-50">
-            {/* Content */}
             <img src="/svg/home_logo.svg" className="pl-16 pt-5 z-10" alt="Logo" />
             <nav className="relative mr-10 z-10 -top-14">
                 <ul className="flex space-x-24">

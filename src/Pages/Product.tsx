@@ -2,14 +2,8 @@ import React from 'react';
 
 const ProductPage: React.FC = () => {
     return (
-        <div className="relative top-0 left-0 w-full h-full bg-cover bg-top z-0"
-            style={{
-                backgroundImage: 'url(/svg/bg_product.svg)',
-                backgroundPosition: 'center -2500px',
-                paddingTop: 450
-            }}>
-            
-            <h2 className="relative text-5xl text-green-600 font-bold mt-14 text-center">Product</h2>
+        <div className="relative top-0 left-0 w-full h-full bg-cover z-0 bg-[url('/svg/bg_product.svg')] pt-[450px] md:pt-[550px] bg-[center_-1600px]">
+            <h2 className="relative text-5xl text-green-600 font-bold mt-14 text-center md:text-center">Product</h2>
             <div className="absolute flex justify-between pt-20 p-10 w-full">
                 <div className="w-full">
                     <div className="space-y-8 ">
@@ -88,7 +82,7 @@ const ProductPage: React.FC = () => {
                 </div>
             </div>
 
-            <div className="relative flex justify-end pt-20 p-10 w-11/12">
+            <div className="relative flex justify-end pt-20 p-64 w-11/12">
                 <div className="grid grid-cols-1 gap-[110px]">
                     <div className="relative">
                         <img src="/svg/design1.svg" alt="design1" className="w-[411px] h-[290px] object-cover" />

@@ -1,8 +1,8 @@
 const VisionAndMission: React.FC = () => {
     return (
-        <div className="relative" style={{ zIndex: 1 }}>
-            <div className="flex justify-around items-center px-40 bg-white z-20 top-[50px] max-w-full">
-                <div className="w-[760px] h-[930px] text-center -top-[200px] px-20 pt-14 border rounded-3xl shadow-lg bg-gray-100 flex flex-col items-center relative z-20 opacity-95">
+        <div className="relative">
+            <div className="flex justify-around items-center px-40 bg-white z-50 top-[50px] max-w-full">
+                <div className="w-[760px] md:w-[730px] h-[930px] md:h-[900px] text-center -top-[200px] px-20 pt-14 border rounded-3xl shadow-lg bg-gray-100 flex flex-col items-center relative z-20 opacity-95">
                     <h2 className="text-5xl font-bold mb-8 text-green-600">Tầm nhìn</h2>
                     <p className="text-sm mb-4 text-justify text-gray-400">
                         Chúng tôi hướng tới mục tiêu trở thành đối tác chiến lược hàng đầu cho các doanh nghiệp
@@ -17,11 +17,11 @@ const VisionAndMission: React.FC = () => {
                         Chúng tôi hướng tới việc trở thành cầu nối giữa doanh nghiệp và công nghệ,
                         mang đến những giải pháp đổi mới và phù hợp với từng nhu cầu cụ thể, từ quản lý tài chính,
                         nhân sự, truyền thông đến phát triển mô hình thương mại điện tử.
-                        <img src="/svg/vision.svg" alt="Tầm nhìn" className="mx-auto mb-3 object-contain h-[580px] max-w-full" />
+                        <img src="/svg/vision.svg" alt="Tầm nhìn" className="mx-auto mb-3 object-contain h-[580px] md:h-[500px] md:ml-20 max-w-full" />
 
                     </p>
                 </div>
-                <div className="w-[760px] h-[930px] text-center -top-[200px] px-20 pt-14 border rounded-3xl shadow-lg bg-gray-100 flex flex-col items-center relative z-20  bg-no-repeat opacity-95">
+                <div className="w-[760px] md:w-[700px] h-[930px] md:h-[900px] text-center -top-[200px] ml-10 px-20 pt-14 border rounded-3xl shadow-lg bg-gray-100 flex flex-col items-center relative z-20  bg-no-repeat opacity-95">
                     <h2 className="text-5xl font-bold mb-8 text-blue-600">Sứ mệnh</h2>
                     <p className="text-sm mb-4 text-justify text-gray-400">
                         Sứ mệnh của chúng tôi là tạo ra giá trị đột phá cho doanh nghiệp
@@ -42,7 +42,7 @@ const VisionAndMission: React.FC = () => {
                         doanh nghiệp theo hướng thương mại điện tử, giúp doanh nghiệp mở rộng
                         quy mô và tiếp cận khách hàng một cách hiệu quả nhất. Chúng tôi tin rằng
                         thương mại điện tử không chỉ là xu hướng mà còn là tương lai của nhiều ngành công nghiệp.
-                        <img src="/svg/mission.svg" alt="Sứ mệnh" className="mx-auto ml-48 mb-24 object-contain h-[580px] max-w-full absolute top-1" />
+                        <img src="/svg/mission.svg" alt="Sứ mệnh" className="mx-auto ml-48 mb-24 object-contain h-[580px] md:h-[450px] md:mt-12 md:ml-32 max-w-full absolute top-1" />
                     </p>
                 </div>
             </div>
@@ -82,7 +82,7 @@ const VisionAndMission: React.FC = () => {
                 </div>
                 <div className="absolute w-full flex justify-center mx-auto px-40 top-[1100px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 gap-3">
                     <div className="h-[80px] w-[218px] flex flex-col items-center justify-center bg-white rounded-full">
-                        <img className="h-[80px] w-[190px] object-contain " src="/svg/SMBC.svg" alt="" />
+                        <img className="h-[80px] md:h-[70px] w-[190px] md:w-[160px] object-contain " src="/svg/SMBC.svg" alt="" />
                     </div>
                     <div className="h-[80px] w-[218px] flex flex-col items-center justify-center bg-white rounded-full">
                         <img className="h-[80px] w-[218px] " src="/svg/MIZUHO.svg" alt="" />

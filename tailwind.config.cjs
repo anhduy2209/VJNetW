@@ -26,7 +26,8 @@ module.exports = {
         'home2': "url('/svg/home2.svg')",
         'home3': "url('/svg/home3.svg')",
         'home4': "url('/svg/home4.svg')",
-        'product': "url('/svg/bg_product.svg)",
+        'product': "url('/svg/bg_product.svg')",
+        'advice': "url('/svg/bg_advice.svg')"
       },
       colors: {
         'light-pink': '#F2F0F4',
