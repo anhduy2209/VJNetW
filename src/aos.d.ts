@@ -1,4 +1,9 @@
 declare module 'aos' {
-    const init: (options?: any) => void;
-    export default { init };
+    interface AOSInstance {
+        init(options?: any): void;
+        refresh(): void;
+    }
+
+    const AOS: AOSInstance;
+    export = AOS;
 }

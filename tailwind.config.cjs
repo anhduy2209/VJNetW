@@ -3,21 +3,14 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        cloudMove1: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(100vw)" },
+        keyframes: {
+          fadeIn: {
+            '0%': { opacity: 0 },
+            '100%': { opacity: 1 },
+          },
         },
-        cloudMove2: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-100vw)" },
-        },
-        cloudMove3: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(200vw)" },
-        },
-        cloudMove4: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-200vw)" },
+        animation: {
+          fadeIn: 'fadeIn 2s ease-out',
         },
       },
       backgroundImage: {
@@ -31,9 +24,34 @@ module.exports = {
       },
       colors: {
         'light-pink': '#F2F0F4',
-        'pink-gray': '#F7F5F9'
+        'pink-gray': '#F7F5F9',
+        'button': '#410016'
+      },
+      zIndex: {
+        '60': '60', 
+        '70': '70', 
+        '100': '100',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '@media (max-width: 768px)': {
+          '#target-section': {
+            display: 'none',
+          },
+          '.aos-element': {
+            animation: 'fadeIn 2s ease-out',
+            visibility: 'visible !important',
+          },
+          '.custom-scrollbar': {
+            scrollX: 'hidden',
+            scrollY: 'hidden'
+          },
+        },
+      },
+      );
+    },
+  ],
 };
