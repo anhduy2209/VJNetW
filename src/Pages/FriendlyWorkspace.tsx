@@ -13,26 +13,27 @@ const FriendlyWorkspace: React.FC = () => {
         });
     }, []);
     return (
-        <div className="relative  min-h-full pl-[200px] bg-[url('/svg/bg_comp.svg')] bg-[center_-100px] -top-[520px] left-0 h-[1600px] w-full bg-cover bg-no-repeat z-10">
-            <p className="relative top-80 text-center text-4xl font-semibold text-white -left-28" data-aos="fade-up"
-                data-aos-anchor-placement="bottom-center">Văn Phòng Thân Thiện & Chuyên Nghiệp</p>
-            <div className="flex flex-row gap-4 relative">
-                <img src="/svg/comp1.svg" alt="comp img1" className="relative h-[592px] w-[506px] top-[400px]" data-aos="zoom-in-right" data-aos-duration="1000" />
-                <img src="/svg/comp2.svg" alt="comp img2" className="relative h-[592px] w-[506px] top-[450px]" data-aos="zoom-in" data-aos-duration="2000" />
-                <img src="/svg/comp3.svg" alt="comp img3" className="relative h-[592px] w-[506px] top-[400px]" data-aos="zoom-in-left" data-aos-duration="3000" />
+        <div className="relative min-h-[1000px] md:pl-[200px] bg-[url('/svg/bg_comp.svg')] md:bg-[center_-100px] md:-top-[520px] bg-[center_-100px] top-[1300px] md:left-0 md:h-[1620px] md:w-full w-full md:bg-cover object-contain bg-cover bg-no-repeat z-10">
+            <p className="relative md:top-80 top-64 text-center md:text-4xl font-semibold text-white md:-left-28" data-aos="fade-down" data-aos-duration="2000">Văn Phòng Thân Thiện & Chuyên Nghiệp</p>
+            <div className="flex md:flex-row md:gap-4 relative md:top-0 top-96 gap-3 mx-2 md:mx-0">
+                <img src="/svg/comp1.svg" alt="comp img1" className="relative md:h-[592px] md:w-[506px] md:top-[400px] -top-10 w-32 h-32" data-aos="zoom-in-right" data-aos-duration="1000" />
+                <img src="/svg/comp2.svg" alt="comp img2" className="relative md:h-[592px] md:w-[506px] md:top-[450px]  w-32 h-32" data-aos="zoom-in" data-aos-duration="2000" />
+                <img src="/svg/comp3.svg" alt="comp img3" className="relative md:h-[592px] md:w-[506px] md:top-[400px] -top-10 w-32 h-32" data-aos="zoom-in-left" data-aos-duration="3000" />
             </div>
             <div className="flex flex-row">
-                <img
-                    src="/svg/char2_home.svg"
-                    alt="char-left"
-                    className="relative h-[442px] w-[242px] left-[350px] top-14"
-                    style={{ transform: 'scaleX(-1)' }}
-                    data-aos="zoom-out-left"
-                    data-aos-duration="2000"
-                />
-                <img src="/svg/char3.svg" alt="char-left" className="relative h-[442px] w-[242px] left-[680px] top-16" data-aos="zoom-out-right" data-aos-duration="2000" />
+                <div data-aos="zoom-out-right"
+                    data-aos-duration="3000">
+                    <img
+                        src="/svg/char2_home.svg"
+                        alt="char-left"
+                        className="relative md:h-[442px] md:w-[242px] md:left-[350px] h-32 w-20 md:top-14 top-72 left-24"
+                        style={{ transform: 'scaleX(-1)' }}
+
+                    />
+                </div>
+                <img src="/svg/char3.svg" alt="char-left" className="relative md:h-[442px] md:w-[242px] md:left-[680px] md:top-16 h-32 w-20 top-72 left-40" data-aos="zoom-out-right" data-aos-duration="2000" />
             </div>
-            <p className="relative text-center top-36 text-white font-light text-2xl" data-aos="fade-down"
+            <p className="relative text-center md:top-36 top-80 text-white font-light md:text-2xl text-md mx-4 md:mr-0" data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">
                 Chào mừng bạn đến với văn phòng của chúng tôi, nơi sự thân thiện và chuyên nghiệp <br /> <br />

@@ -8,16 +8,13 @@ const ParallaxPage: React.FC = () => {
     const navigate = useNavigate();
     const [isMobile, setIsMobile] = useState(false);
 
-
     useEffect(() => {
-        // Kiểm tra kích thước màn hình khi load trang
         const checkMobile = () => {
-            setIsMobile(window.innerWidth <= 768); // Định nghĩa mobile là màn hình <= 768px
+            setIsMobile(window.innerWidth <= 768); 
         };
 
-        // Kiểm tra lại khi thay đổi kích thước cửa sổ
         window.addEventListener('resize', checkMobile);
-        checkMobile(); // Kiểm tra ngay khi component được mount
+        checkMobile();
 
         return () => {
             window.removeEventListener('resize', checkMobile);
@@ -109,7 +106,7 @@ const ParallaxPage: React.FC = () => {
                     <div className='relative top-20 right-20'>
                         <div className="relative md:left-[850px] md:w-[400px] md:h-[400px] md:top-0 top-[220px] left-56 w-56 h-36 bg-[url('/svg/sun.svg')] bg-contain bg-no-repeat object-contain z-0" data-aos="zoom-out-down" data-aos-duration="3000" data-aos-easing="ease-out-cubic" />
 
-                        <div className="relative md:left-[905px] md:-top-[350px] md:w-[298px] md:h-[250px] top-[100px] left-60 w-40 h-24 bg-[url('/svg/logo.svg')] bg-contain bg-no-repeat object-contain z-20" data-aos="zoom-out-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic" />
+                        <div className="relative md:left-[905px] md:-top-[350px] md:w-[298px] md:h-[250px] top-[97px] left-60 w-40 h-24 bg-[url('/images/main_logo.png')] bg-contain bg-no-repeat object-contain z-20" data-aos="zoom-out-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic" />
                     </div>
                     <div className="absolute md:top-[310px] md:w-[1396px] md:h-[717px] md:hidden w-[1000px] h-[100px] top-[480px] bg-[url('/svg/tree.svg')] bg-contain bg-no-repeat object-contain z-60" />
 

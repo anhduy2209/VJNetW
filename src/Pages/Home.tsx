@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className='h-svh'>
+        <div className='md:h-svh'>
             <Header />
             <div className="absolute md:-top-[350px] md:left-[650px] md:w-full md:h-full md:block hidden -top-14 left-[170px] w-72 h-72 z-10" data-aos="fade-up-left">
                 <img src="/svg/home1.svg" alt="" />
@@ -26,19 +26,18 @@ const HomePage: React.FC = () => {
             <div className="absolute md:-top-[500px] md:left-[1140px] md:w-[1300px] md:h-full md:block hidden left-[250px] -top-[210px] w-72 h-72 z-30" data-aos="fade-up-left">
                 <img src="/svg/home4.svg" alt="" />
             </div>
-            {/* <AboutUs /> */}
-            <AboutUs />
+            <section id="about-us">
+                <AboutUs />
+            </section>
             <VisionAndMission />
             <section id='product'>
                 <ProductPage />
             </section>
-            <section id="about-us">
-                <AdvicePage />
-            </section>
-            {/* <section id='address'>
+            <AdvicePage />
+            <section id='address'>
                 <FriendlyWorkspace />
-            </section> */}
-            {/* <Footer /> */}
+            </section>
+            <Footer />
         </div>
     );
 };

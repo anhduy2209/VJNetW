@@ -14,7 +14,7 @@ const VisionAndMission: React.FC = () => {
     }, []);
     return (
         <div className="relative">
-            <div className="flex flex-col md:flex-row md:justify-around md:items-center md:px-32 bg-white z-50 md:top-[50px] pt-72 md:pt-0 max-w-full">
+            <div className="flex flex-col md:flex-row md:justify-around md:items-center md:px-32 bg-white z-50 md:top-[50px] pt-72 md:pt-0 max-w-full overflow-hidden md:overflow-visible">
                 <div className="w-11/12 md:w-[780px] h-auto md:h-[900px] justify-center items-center mx-auto text-center -top-[200px] md:px-20 px-5 pt-14 border rounded-3xl shadow-lg bg-gray-100 flex flex-col md:items-center relative z-20 bg-opacity-90" data-aos="zoom-in-right" data-aos-duration="1500">
                     <h2 className="md:text-5xl text-4xl font-bold mb-8 text-green-600" data-aos="fade-right" data-aos-duration="3000">Tầm nhìn</h2>
                     <p className="text-sm mb-4 text-justify text-gray-400" data-aos="fade-right" data-aos-duration="2000">
@@ -61,12 +61,12 @@ const VisionAndMission: React.FC = () => {
 
             <div>
                 <img
-                    className="absolute md:top-64 md:w-[2400px] top-[1990px] max-w-none w-[600px] -left-14 md:-left-[180px]"
+                    className="absolute md:top-64 md:w-[2400px] top-[1990px] max-w-none w-[600px] -left-14 md:-left-[180px] overflow-hidden"
                     src="/svg/bg2_1.svg"
                     alt=""
                 />
                 <img
-                    className="absolute mt-32 md:-left-10 md:top-[700px] md:w-[2000px] w-[450px] top-[2075px] -left-3 max-w-none"
+                    className="absolute mt-32 md:-left-10 md:top-[700px] md:w-[2000px] w-[450px] top-[2075px] -left-3 max-w-none overflow-hidden"
                     src="/svg/bg2_2.svg"
                     alt=""
                 />

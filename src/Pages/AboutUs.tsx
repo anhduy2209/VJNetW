@@ -13,7 +13,7 @@ const AboutUs = () => {
         });
     }, []);
     return (
-        <section id='about-us' className="md:pt-44 md:pl-44 pl-5 min-h-10 flex justify-between">
+        <section id="about-us" className="md:pt-44 md:pl-44 pl-5 min-h-10 flex justify-between">
             <div className="flex-1">
                 <h2 className="text-green-600 md:text-5xl font-bold md:mb-4 mb-0 text-3xl md:mt-4" data-aos="fade-right" data-aos-duration="2000">About us</h2>
                 <p className="text-gray-400 leading-relaxed max-w-xl text-justify md:mt-12 mt-6 md:text-xl text-md mr-4" data-aos="fade-left" data-aos-duration="2200">
@@ -34,7 +34,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className="relative md:left-[470px] left-40 z-50 md:block hidden md:-top-96">
+            <div className="relative md:left-[470px] left-40 z-40 md:block hidden md:-top-96">
                 <div className="relative flex md:flex-row flex-row">
                     <img
                         src="/svg/char1_home.svg"

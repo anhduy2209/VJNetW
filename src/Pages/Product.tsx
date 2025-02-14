@@ -36,8 +36,8 @@ const ProductPage: React.FC = () => {
                             </div>
                             <div className="grid grid-cols-1x md:hidden visible mt-5">
                                 <div className="relative" data-aos="fade-left">
-                                    <img src="/svg/design1.svg" alt="design1" className="w-[380px] h-[290px] object-contain" />
-                                    <img src="/svg/design2.svg" alt="" className="w-[310px] h-[120px] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                                    <img src="/svg/design1.svg" alt="design1" className="w-[250px] h-[200px] object-contain" />
+                                    <img src="/svg/design2.svg" alt="" className="w-[200px] h-[120px] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const ProductPage: React.FC = () => {
                                 </div>
                             </div>
                             <div className="grid grid-cols-1x md:hidden visible mt-5">
-                                <img src="/svg/dev.svg" alt="dev" className="w-[380px] h-[290px] object-contain" data-aos="fade-left" />
+                                <img src="/svg/dev.svg" alt="dev" className="w-[250px] h-[200px] object-contain" data-aos="fade-left" />
                             </div>
                         </div>
                         <div className="flex items-center md:flex-row flex-col relative md:-top-[1035px] -top-[1200px]" data-aos="fade-left" data-aos-duration="2000">
@@ -79,7 +79,7 @@ const ProductPage: React.FC = () => {
                                 </div>
                             </div>
                             <div className="grid grid-cols-1x md:hidden visible mt-5">
-                                <img src="/svg/finance.svg" alt="finance" className="w-[380px] h-[290px] object-contain" data-aos="fade-left" />
+                                <img src="/svg/finance.svg" alt="finance" className="w-[250px] h-[200px] object-contain" data-aos="fade-left" />
                             </div>
                         </div>
                         <div className="flex items-center md:flex-row flex-col relative md:-top-[965px] -top-[1150px]" data-aos="fade-left" data-aos-duration="2000">
@@ -101,7 +101,7 @@ const ProductPage: React.FC = () => {
                                 </div>
                             </div>
                             <div className="grid grid-cols-1x md:hidden visible mt-5">
-                                <img src="/svg/business.svg" alt="business" className="w-[380px] h-[290px] object-contain" data-aos="fade-left" />
+                                <img src="/svg/business.svg" alt="business" className="w-[250px] h-[200px] object-contain" data-aos="fade-left" />
                             </div>
                         </div>
                     </div>
